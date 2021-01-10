@@ -210,7 +210,7 @@ body {
  /* footer */
 
 footer {
-    width: calc(100%-20px);
+    width:calc(100%-20px);
     padding: 10px 10px;
     background-color: #111;
     margin-top: 0px;
@@ -301,6 +301,28 @@ footer ul li a{
  }
 
  /* Donate page */
+
+.donate-text, .donate-texth {
+    padding-left: 10px;
+    margin: 5px 0;
+}
+
+.donate-text {
+    text-indent:25px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    .donate-text {
+        text-indent: 50px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .donate-text, .donate-texth {
+        margin:5px 150px;
+    }
+}
 .donate-links div h3{
     font-family: 'Catamaran', serif;
     font-size: 24px;
@@ -371,6 +393,39 @@ footer ul li a{
     }
 }
 
+.compwt {
+    font-size: 18px;
+    text-align: left;
+    width: 355px;
+    margin:auto;
+    text-indent: 50px; 
+}
+
+.compim {
+    width:355px;
+    height:227px;
+    padding:12px;
+    padding-right:0px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .compwt {
+        margin:0;
+        width: 400px;
+    }
+    .compim {
+        margin-top:100px;
+        width:400px;
+        height:256px;
+        padding:0;
+    }
+
+    .compa {
+        display: flex; 
+        justify-content: space-around;
+    } 
+}
+
 /* Comp pg */
 
 .ml {
@@ -421,55 +476,25 @@ footer ul li a{
     display: block;
 }
 
-/* dcomp */
+/* comp signup pg*/
 
-.dcompwt {
-    font-size: 18px;
-    text-align: left;
-    width: 400px;
-    margin:auto;
-    text-indent: 50px; 
+.signb1 {
+    cursor: pointer;
 }
-
-.dcompim {
-    width:400px;
-    height:256px;
-    padding:12px;
-}
-
-@media only screen and (min-width: 1000px) {
-    .dcompwt {
-        margin:0;
-    }
-    .dcompim {
-        margin-top:100px;
-        width:400px;
-        height:256px;
-        padding:0;
-    }
-
-    .dcompa {
-        display: flex; 
-        justify-content: space-around;
-    } 
-}
-
-
-/* decomp signup pg*/
 
 .EOP, .EOPG, .NOP {
     margin-bottom: 50px
 
 }
 
-.formdcomp {
+.formcomp {
     margin-top: 100px;
     margin-bottom: 90px;
     padding-left: 100px;
 }
 
 @media only screen and (min-width: 768px) {
-    .formdcomp {
+    .formcomp {
         padding-left: 0;
     }
 }
