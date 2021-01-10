@@ -340,7 +340,7 @@ footer ul li a{
     }
 }
 
-/*Comp */
+/*Comp*/
 
 .signup {
     display: flex;
@@ -404,7 +404,7 @@ footer ul li a{
 }
 
 .ml li ul.dropdown {
-    min-width: 100%; /* Set width of the dropdown */
+    min-width: 100%;
     background: #fff;
     display: none;
     position: absolute;
@@ -414,7 +414,7 @@ footer ul li a{
 }
 
 .ml li:hover ul.dropdown {
-    display: block; /* Display the dropdown */
+    display: block; 
 }
 
 .ml li ul.dropdown li {
@@ -452,4 +452,24 @@ footer ul li a{
         display: flex; 
         justify-content: space-around;
     } 
+}
+
+
+/* decomp signup pg*/
+
+.EOP, .EOPG, .NOP {
+    margin-bottom: 50px
+
+}
+
+.formdcomp {
+    margin-top: 100px;
+    margin-bottom: 90px;
+    padding-left: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+    .formdcomp {
+        padding-left: 0;
+    }
 }
