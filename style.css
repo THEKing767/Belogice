@@ -340,6 +340,37 @@ footer ul li a{
     }
 }
 
+/*Comp */
+
+.signup {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.signupb {
+    background-color: #f2f2f2;
+    border:2px solid #111;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.signupb, a {
+    color:#111;
+}
+
+@media only screen and (min-width: 1024px) {
+    .signup {
+        margin-bottom: 5px;
+        margin-top: 30px;
+    }
+}
+
 /* Comp pg */
 
 .ml {
